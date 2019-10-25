@@ -2,6 +2,7 @@ $(document).ready(() => {
   let addButton = $('.add-button');
   let field = $('.add-input');
   let tasks = $('.tasks');
+
   // Add Task
   addButton.on('click', () => {
     let elem = `<li class="task">
